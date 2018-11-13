@@ -15,6 +15,3 @@ def readcurrency(filename):
         temp = item.split()
         currency_dict.append({"symbol":temp[0], "rate":temp[1]})
     return currency_dict
-    
-
-print(readcurrency("currency.txt"))
